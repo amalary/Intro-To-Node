@@ -59,3 +59,16 @@ let randomGen = randomNum.randomNumber(200,100);
 
 console.log(randomGen)
 
+let greeting = randomNum.sayHello('Anthony')
+
+console.log(greeting)
+
+let circle = require('./circle'); 
+
+let circleArea = circle.circleArea(4)
+
+console.log(circleArea)
+
+let circleCircumf = circle.circumference(5); 
+
+console.log(circleCircumf)
