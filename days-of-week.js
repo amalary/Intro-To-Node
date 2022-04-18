@@ -5,6 +5,15 @@ function getWeekday(dayNo){
     return weekdays[dayNo]; 
 }
 
-module.exports = { 
-    getWeekday
+function isWeekend(dayNo){
+    if(dayNo === 0 || dayNo == 6){
+        return 'This is weekend'
+    }else{
+        return 'This is not the weekend !'
+    }
+}
+
+module.exports = {
+    getWeekday,
+    isWeekend
 }
