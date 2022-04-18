@@ -12,3 +12,14 @@ console.log(module);
 let daysOfWeek = require('./days-of-week'); 
 
 console.log(daysOfWeek); 
+
+let daysOfWeek = require('./days-of-week'); 
+
+let day = daysOfWeek.getWeekday(5);
+
+console.log(day); 
+
+
+
+
+
